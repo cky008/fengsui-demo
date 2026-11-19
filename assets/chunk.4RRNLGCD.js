@@ -1,0 +1,1 @@
+var s=class extends Error{constructor(r){super(r),this.name="CpeControlValidationError"}},t=class extends Error{statusCode;constructor(r,n){super(n),this.name="HttpPayloadError",this.statusCode=r}};export{s as a,t as b};
